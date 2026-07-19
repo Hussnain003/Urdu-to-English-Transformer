@@ -82,3 +82,10 @@ byte-identical tokenizer files.
 
 `deployment/hf_space/` contains a ready-to-go Gradio app for Hugging Face
 Spaces (not yet deployed). See that folder's README for details.
+
+## Acknowledgments
+
+The parallel Urdu-English corpus (`data/Urdu.txt`, `data/English.txt`) comes
+from [Kheem-Dh/Urdu-to-English-Machine-Translation-using-Seq2Seq-Transformers-Variant-Model](https://github.com/Kheem-Dh/Urdu-to-English-Machine-Translation-using-Seq2Seq-Transformers-Variant-Model).
+Only the dataset is reused — the model, tokenizer, training pipeline, and
+code in this repo are an independent implementation.
