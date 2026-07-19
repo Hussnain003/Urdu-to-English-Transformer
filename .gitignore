@@ -1,0 +1,10 @@
+.claude/
+__pycache__/
+*.pyc
+
+# Regenerable intermediate artifacts (produced by prepare_tokenizers.py)
+src_corpus.txt
+tgt_corpus.txt
+
+# Sample translations dump from the notebook run
+test_translations.txt
