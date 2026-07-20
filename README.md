@@ -3,7 +3,7 @@
 A Transformer (encoder-decoder) machine translation model built from scratch
 in PyTorch, trained to translate **Urdu → English**. No pretrained weights,
 no fine-tuning — the full pipeline (tokenizer, architecture, training loop)
-is implemented and trained from zero in [English_to_Urdu_Transformer.ipynb](English_to_Urdu_Transformer.ipynb).
+is implemented and trained from zero in [Urdu_to_English_Transformer.ipynb](Urdu_to_English_Transformer.ipynb).
 
 ## Results
 
@@ -23,7 +23,7 @@ pairs (small by MT standards).
 ## Repo layout
 
 ```
-English_to_Urdu_Transformer.ipynb   Full pipeline: data prep, tokenizer
+Urdu_to_English_Transformer.ipynb   Full pipeline: data prep, tokenizer
                                      training, model, training loop, eval
 translate.py                        Load the trained model and translate
                                      Urdu sentences from the command line
