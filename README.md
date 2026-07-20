@@ -34,8 +34,6 @@ data/
 models/
   final_model.pt                    Trained model weights + config (git-lfs)
   sp_src.model, sp_tgt.model        SentencePiece BPE tokenizers (Urdu, English)
-deployment/hf_space/                Gradio app prepared for Hugging Face
-                                     Spaces (not yet deployed)
 ```
 
 ## How it works
@@ -77,11 +75,6 @@ python prepare_tokenizers.py
 This reruns the same cleaning + BPE training used in the notebook (no
 randomness involved in this part of the pipeline), so it reproduces
 byte-identical tokenizer files.
-
-## Deployment
-
-`deployment/hf_space/` contains a ready-to-go Gradio app for Hugging Face
-Spaces (not yet deployed). See that folder's README for details.
 
 ## Acknowledgments
 
